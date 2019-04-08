@@ -14,7 +14,7 @@ Most recent revision:
 
 
   <header>
-<h1 style="text-align: center;color:#800020 ; font-family: Cursive; ">The Ratatouille</h1>
+<h1 style="text-align: center">The Ratatouille</h1>
 <nav>
   <hr>
   <a href="index.html">Home</a>
@@ -27,10 +27,14 @@ Most recent revision:
 <!-- form -->
 
 <form action="fakePage.html" method="POST" >
-Name: <input type ="text" name="firstname"><br>
-Email: <input type ="text" name="email"><br>
-Phone: <input type ="text" name="phone"><br>
-Reason for Inquiry:<select name="mdfd">
+<label for="name"> Name</label>
+<input type ="text" name="name"><br>
+<label for="email"> Email</label>
+<input type ="text" name="email"><br>
+<label for="phone"> Phone</label>
+<input type ="text" name="phone"><br>
+ <label for="rfi">Reason for Inquiry</label>
+<select name="rfi">
   <option value="catering" default>Catering</option>
   <option value="privateparty">Private Party</option>
   <option value="feedback">Feedback</option>
@@ -39,7 +43,8 @@ Reason for Inquiry:<select name="mdfd">
 
   Additional Information:
   <textarea name="briefDescription"></textarea><br/>
-Have you been to the restaurant: <input type="radio" name="answer" value="NO" checked/>No
+   <label for="answer"> Have you been to the restaurant:</label>
+   <input type="radio" name="answer" value="NO" checked/>No
  <input type="radio" name="answer" value="YES"/>Yes<br>
 Best days to contact you:<input type="checkbox" name="myChoices" value="mon">M
 <input type="radio" name="answer" value="YES"/>Yes<br>
