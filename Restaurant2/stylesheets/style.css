@@ -24,12 +24,22 @@ a{
 a:hover{
   background-color: #222;
 }
-
-a.current{
+.current{
   background-color: #222;
 }
 
 #frame{
 border: 1px solid black;
+}
 
+#menu{
+width: 80%;
+border: 2px solid silver;
+background-color: #ae9a65;
+overflow-x: scroll;
+margin: 0 auto;
+}
+
+th{
+  color: white;
 }
