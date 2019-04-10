@@ -1,9 +1,12 @@
 body{
 background-color: #eee;
 font-family: arial, helvetica, sans-serif;
-max-width: 900px;
+/* max-width: 900px; */
+width:100%;
 margin: 0 auto;
 }
+
+
 
 .clear-float {
     clear:both;
@@ -15,7 +18,6 @@ margin: 0 auto;
 }
 
 article{
-
 margin-bottom: 16px;
 }
 
@@ -24,10 +26,12 @@ article img {
 }
 
 
-header,footer {
+
+
+
+footer {
     background-color: #5b7d87;
     color: #fef9ff;
-    height: 100px;
     text-align: center;
     padding: 30px 10px 20px 10px;
 }
@@ -36,7 +40,7 @@ h1 {
     font-size: 2.5em;
 }
 
-nav a{
+/* nav a{
   background-color: #5b7d87;
   color: #fef9ff;
   padding: 8px;
@@ -47,9 +51,9 @@ nav a{
   margin: 20px;
   width: 100px;
   float: left;
-}
+} */
 
-nav a:visited{
+/* nav a:visited{
   color: #e4c3ad;
 }
 
@@ -60,9 +64,7 @@ nav a:hover{
 
 nav a:active{
   font-weight: bold;
-}
-
-
+} */
 
 
 
@@ -96,15 +98,11 @@ th {
     color: #f2eded;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #e4c3ad;
-}
+} */
 
-nav{
-border-top: 3px dashed #546a7b;
-border-bottom: 3px dashed #546a7b;
-margin-top: 4px;
-}
+
 
 /* form */
 label, fieldset{

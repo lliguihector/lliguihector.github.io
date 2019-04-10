@@ -15,64 +15,35 @@ Most recent revision:
 <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body >
+<body>
 
-
-
-<header class="jumbotron text-center" style= "margin-bottom:0; background-color:#5b7d87;color:white">
-  <h1>Hector Lliguichuzca</h1>
-  <p>Welcome to my Portfolio</p>
+<header>
+<h1>Portfolio for Hector L</h1>
 </header>
 
-<!-- Navigation bar -->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="index.html">Home</a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <!-- Links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-<ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link" href="projects.html">Projects</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="contact.html">Contact Me</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="testimonials.html">Testimonials</a>
-  </li>
-</ul>
-</div>
+<nav>
+<p><a href = "projects.html">Projects</a></p>
+<p><a href = "contact.html">Contact Me</a></p>
+<p><a href = "testimonials.html">Testimonials</a></p>
+<div class="clear-float"></div>
 </nav>
 
-
-<div class="container">
-<div class="row">
-  <div class="col-sm-4">
+<section>
+  <article id = "about">
 <h2><em>About Me</em></h2>
 <img src="images/me.jpg" alt="Portrait of Hector Llguichuzca" style="float: left;">
-</div>
-<div class="col-sm-4">
 <p>Hello World!</p>
 <p>Paragraph 2 with more stuff about you.</p>
-</div>
-</div>
-</div>
+<div class="clear-float"></div>
+</article>
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col col-lg-6" style=>
+<article id = "experience">
 <h2><em>Past Experiences</em></h2>
-<img src="images/ex.jpg" >
-</div>
-
-<div class="col col-lg-6" style="padding: 20px">
-<caption>Employment History</caption>
-<table border="1" class="table table-dark">
+<img src="images/ex.jpg" width="20%">
+<div class="right-content">
+<table border="1">
+  <caption>Employment History</caption>
   <tr>
 <th>Years of Employment</th>
 <th>Title</th>
@@ -95,8 +66,8 @@ Most recent revision:
 </tr>
 </table>
 </div>
-</div>
-</div>
+<div class="clear-float"></div>
+</article>
 
 <article id = "hobbies">
 <h2><em>Hobbies</em></h2>
