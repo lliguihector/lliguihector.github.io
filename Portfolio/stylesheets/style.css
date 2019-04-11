@@ -141,14 +141,22 @@ border: 1px solid silver;
   cursor: pointer;
   font-family: 'arial';
   box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .pic:hover{
-background-color: #999;
+background-color: silver;
 color:white;
 }
 
 .pic img{
 width:250px;
 height: 200px;
+}
+
+
+.caption{
+ color:  #546a7b;
+ font-weight: bold;
+ font-family: 'arial';
 }
