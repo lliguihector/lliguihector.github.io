@@ -7,6 +7,11 @@ margin: 0 auto;
 }
 
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 
 .clear-float {
     clear:both;
@@ -25,14 +30,11 @@ article img {
    float:left;
 }
 
-
-
-
-
 footer {
     background-color: #5b7d87;
     color: #fef9ff;
     text-align: center;
+    width:100%;
     padding: 30px 10px 20px 10px;
 }
 
@@ -163,4 +165,28 @@ margin: 0 auto;
 margin-top: 10px;
 margin-bottom: 10px;
 border: 1px solid silver;
+}
+
+
+
+
+
+
+
+
+
+.pic{
+  background: #f5f5f5;
+  border: 4px solid grey;
+  margin: 10px;
+  color:white;
+  width:200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+
+.pic img{
+width:200px;
+height: 200px;
 }
