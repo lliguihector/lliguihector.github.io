@@ -5,7 +5,9 @@ body{
 }
 
 
-
+#profilePic{
+   border-radius: 50%;
+}
 
 
 *{
