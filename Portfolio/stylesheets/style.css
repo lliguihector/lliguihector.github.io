@@ -60,7 +60,9 @@ th {
 
 
 /* form */
-label, fieldset{
+
+
+/* label, fieldset{
   font-size: 1.1em;
 }
 
@@ -108,9 +110,9 @@ textarea {
     border-radius: 3px;
     background-color: #fff;
     resize: none;
-}
+} */
 
-#form{
+/* #form{
 height: auto;
 background-color: #fef9ff;
 width: 60%;
@@ -119,7 +121,7 @@ margin-top: 10px;
 margin-bottom: 10px;
 border: 1px solid silver;
 }
-
+*/
 
 
 
@@ -159,4 +161,10 @@ height: 200px;
  color:  #546a7b;
  font-weight: bold;
  font-family: 'arial';
+}
+
+.round{
+  border-radius: 50%;
+  width:10px !important;
+  height: 10px !important;
 }
