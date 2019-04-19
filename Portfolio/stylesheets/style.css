@@ -1,55 +1,35 @@
 body{
-background-color: #eee;
-font-family: arial, helvetica, sans-serif;
-max-width: 900px;
-margin: 0 auto;
-}
-
-.clear-float {
-    clear:both;
-}
-
-article img {
-   float:left;
-}
-/* *{
   margin: 0;
+  background:#eee;
   padding: 0;
-} */
+}
 
-header,footer {
+
+#profilePic{
+   border-radius: 50%;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+footer {
     background-color: #5b7d87;
     color: #fef9ff;
-    height: 100px;
     text-align: center;
+    width:100%;
     padding: 30px 10px 20px 10px;
-
 }
 
 h1 {
     font-size: 2.5em;
 }
 
-a{
-  text-decoration: none;
-  background: orange;
-  color: white;
-  border-radius: 4px;
-  padding: 10px;
-  box-sizing: border-box;
-  font-family: futura;
-}
-a:hover{
-  color: black;
-}
 
-/* Table */
-
-caption{
-  font-weight: bold;
-  font-size: 1.2em;
-  margin-bottom: 8px;
-}
 
 table, th, td{
 
@@ -73,18 +53,16 @@ th {
     color: #f2eded;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #e4c3ad;
-}
+} */
 
-nav{
-border-top: 3px dashed #546a7b;
-border-bottom: 3px dashed #546a7b;
-margin-top: 4px;
-}
+
 
 /* form */
-label, fieldset{
+
+
+/* label, fieldset{
   font-size: 1.1em;
 }
 
@@ -132,9 +110,9 @@ textarea {
     border-radius: 3px;
     background-color: #fff;
     resize: none;
-}
+} */
 
-#form{
+/* #form{
 height: auto;
 background-color: #fef9ff;
 width: 60%;
@@ -142,4 +120,51 @@ margin: 0 auto;
 margin-top: 10px;
 margin-bottom: 10px;
 border: 1px solid silver;
+}
+*/
+
+
+
+
+
+
+
+
+.pic{
+  background: #eee;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  color:black;
+  width:200px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  font-family: 'arial';
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.pic:hover{
+background-color: silver;
+color:white;
+}
+
+.pic img{
+width:250px;
+height: 200px;
+}
+
+
+.caption{
+ color:  #546a7b;
+ font-weight: bold;
+ font-family: 'arial';
+}
+
+.round{
+  border-radius: 50%;
+  width:10px !important;
+  height: 10px !important;
 }
