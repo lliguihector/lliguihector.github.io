@@ -1,0 +1,31 @@
+#banner{
+    background: #4169E1;
+    color:white;
+    text-align: center;
+  }
+
+  #banner img{
+    width: 80px;
+    height: 80px;
+    float:right;
+    position: absolute;
+    top:0;
+    right: 0;
+  }
+
+.fact{
+ background: #eee;
+ text-align: center;
+}
+
+#display{
+ display:block;
+}
+.btn{
+ background-color: #6A5ACD;
+}
+
+
+#aries,#pisces,#scorpio,#taurus,#gemini,#cancer,#leo,#virgo,#libra,#capricorn,#aquarius,#sagittarius{
+ display: none;
+}
