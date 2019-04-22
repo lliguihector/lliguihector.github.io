@@ -26,8 +26,8 @@ body{
 }
 
 #banner{
-  background: #333;
-  color:white;
+  background: black;
+  color:silver;
   text-align: center;
   padding: 4px;
   height: 100px;
@@ -70,6 +70,7 @@ footer{
   font-family: 'futura';
   font-weight: bolder;
   border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -81,6 +82,8 @@ footer{
 
 #dropdown a:hover{
   color: white;
+  text-decoration: none;
+
 }
 
 
@@ -103,6 +106,15 @@ footer{
 #ham{
   display: block;
 }
+
+}
+
+
+@media only screen and (max-width: 601px) {
+  #dropdown {
+    display: block;
+  }
+
 
 }
 
