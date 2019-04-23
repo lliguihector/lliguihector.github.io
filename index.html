@@ -61,27 +61,33 @@ footer{
 
 #dropdown{
 /* display: none; */
-  transition: 6s;
-  background: black;
-  opacity: .8;
+  transition: .6s;
+  background: trasparent;
+  /* opacity: .8; */
   background: trasparent;
   /* color: silver; */
-  color: rgb(255, 45,85);
+  color: black;
   font-family: 'futura';
   font-weight: bolder;
-  border-bottom: 1px solid black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 250px;
+  box-sizing: content-box;
+  overflow: hidden;
+  border-bottom: 0px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #dropdown a{
   /* color: rgb(255, 45,85); */
-    color: silver;
+  color:#800020;;
   font-size: 20px;
+  border-radius: 5px;
+  padding: 4px;
 }
 
 #dropdown a:hover{
-  color: white;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+/* background: black; */
 }
 
 #title{
@@ -97,7 +103,27 @@ footer{
 
 @media only screen and (max-width: 600px) {
   #dropdown {
-    display: none;
+    color: rgb(255, 45,85);
+    height: 0px;
+    transition: .6s;
+    background: black;
+    opacity: .8;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #dropdown a{
+    /* color: rgb(255, 45,85); */
+    color: silver;
+    background: none;
+    border-radius: 0px;
+    padding: 0px;
+    /* font-size: 20px; */
+  }
+
+  #dropdown a:hover{
+    text-decoration: none;
+ color: white;
   }
 #ham{
   display: block;
@@ -129,10 +155,10 @@ footer{
 $( "#ham" ).click(function() {
 var ham = document.getElementById("dropdown");
 
-if(ham.style.display == "block"){
-  ham.style.display = "none";
+if(ham.style.height == "250px"){
+  ham.style.height = "0px";
 }else{
-  ham.style.display = "block";
+  ham.style.height = "250px";
 }
 });
 </script>
