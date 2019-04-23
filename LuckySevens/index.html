@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="Scripts/script.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet" type="text/css"/>
+      </head>
+      <body class="container-fluid">
+        <h1>Lucky Sevens</h1>
+
+<!-- <form name="numberFun"  class="form-inline"> -->
+
+  <div class="form-group ">
+    <label for="bet">Starting Bet: </label>
+    <input type="text" class="form-control" id = "bet" placeholder="$0.00">
+    </div>
+
+<div class="form-row">
+  <div class="form-group cl-4">
+<button onclick="validateItems()" class="form-control btn btn-primary" id="initiate" style="display:block;">Play</button>
+</div>
+</div>
+<!-- </form> -->
+
+<hr/>
+
+<table id="results" class="table table-striped" style="display:none;">
+  <tr>
+    <th colspan="2" style= "text-align:center;">Results</th>
+  </tr>
+<tr>
+<td>Starting bet</td>
+<td id="demo">$###.##</td>
+</tr>
+<tr>
+<td>Total Rolls Before Going Broke</td>
+<td id="demo2">#</td>
+</tr>
+<tr>
+<td>Highest Amount Won</td>
+<td id="demo3">$####.##</td>
+</tr>
+<tr>
+<td>Roll Count at Highest Amount Won</td>
+<td id="demo4">###</td>
+</tr>
+</table>
+
+<!-- <p id="diceImage"><b>Dice Image</b></p> -->
+<!-- <p id="money">$</p>
+<p id="dice1">dice1</p>
+<p id="dice2">dice2</p>
+<p id ="sum">sum</p>
+<p id ="roll">roll</p> -->
+
+<!-- <button onclick="rollDice()">ROLL Me!</button> -->
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
