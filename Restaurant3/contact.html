@@ -13,6 +13,8 @@ Most recent revision:
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script type="text/JavaScript" src="Scripts/script.js"></script>
 </head>
 <body>
 
@@ -55,12 +57,11 @@ Most recent revision:
   </nav>
   </div>
 
-<!-- form -->
-
 <br>
 
+<!-- form -->
 <div class="container form">
-<form>
+<form name="customerForm" onsubmit="return validateUserInput()">
   <div class="form-row">
     <div class="form-group col-md-6">
 <label for="fname">First Name</label>
@@ -163,7 +164,7 @@ Most recent revision:
 </div>
 
 
-
+<p id="demo">Info</p>
 
 <!-- <form action="fakePage.html" method="POST" >
 Name: <input type ="text" name="firstname"><br>
