@@ -2,29 +2,37 @@
 <html>
 <head>
   <script type="text/javascript" src="Scripts/script.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       </head>
-      <body class="container-fluid">
-        <h1>Lucky Sevens</h1>
+      <body>
+
 
 <!-- <form name="numberFun"  class="form-inline"> -->
 
-  <div class="form-group ">
+<div class="container">
+  <h1>Lucky Sevens</h1>
+<div class="form-row">
+  <div class="form-group col col-lg-6">
     <label for="bet">Starting Bet: </label>
     <input type="text" class="form-control" id = "bet" placeholder="$0.00">
-    </div>
+  </div>
+</div>
 
 <div class="form-row">
-  <div class="form-group cl-4">
+  <div class="form-group col col-lg-6">
 <button onclick="validateItems()" class="form-control btn btn-primary" id="initiate" style="display:block;">Play</button>
+</div>
+</div>
 </div>
 </div>
 <!-- </form> -->
 
 <hr/>
 
-<table id="results" class="table table-striped" style="display:none;">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+<table id="results" class="table table-striped" style="display:block; width: 100%;">
   <tr>
     <th colspan="2" style= "text-align:center;">Results</th>
   </tr>
@@ -45,7 +53,9 @@
 <td id="demo4">###</td>
 </tr>
 </table>
-
+</div>
+</div>
+</div>
 <!-- <p id="diceImage"><b>Dice Image</b></p> -->
 <!-- <p id="money">$</p>
 <p id="dice1">dice1</p>
