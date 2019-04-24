@@ -10,9 +10,6 @@ Most recent revision:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>ifhector.com | Home</title>
-
-
-
 <!-- Jquery Google CDN -->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -40,13 +37,11 @@ nav{
   background: #333;
   height: 40px;
 }
-
 #ham{
   color:white;
   position: absolute;
   right:0;
   margin-right: 15px;
-  /* margin-top: 100px; */
   top:95px;
   font-size: 30px;
   display: none;
@@ -60,25 +55,23 @@ footer{
 }
 
 #dropdown{
-/* display: none; */
   transition: .6s;
   background: trasparent;
-  /* opacity: .8; */
   background: trasparent;
-  /* color: silver; */
   color: black;
   font-family: 'futura';
   font-weight: bolder;
-  height: 250px;
-  box-sizing: content-box;
+
+  height: auto;
+
+  box-sizing:border-box;
   overflow: hidden;
+  width:100%;
   border-bottom: 0px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #dropdown a{
-  /* color: rgb(255, 45,85); */
-  color:#800020;;
+  color:#800020;
   font-size: 20px;
   border-radius: 5px;
   padding: 4px;
@@ -87,18 +80,20 @@ footer{
 #dropdown a:hover{
   color: black;
   text-decoration: underline;
-/* background: black; */
 }
 
 #title{
   text-align: center;
   font-size: 60px;
-  /* color:tomato; */
   margin: auto;
   background: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bolder;
   width: 80%;
+}
+
+#title b{
+    color:#800020;
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,23 +108,20 @@ footer{
   }
 
   #dropdown a{
-    /* color: rgb(255, 45,85); */
     color: silver;
     background: none;
     border-radius: 0px;
     padding: 0px;
-    /* font-size: 20px; */
   }
 
   #dropdown a:hover{
     text-decoration: none;
- color: white;
+    color: white;
   }
 #ham{
   display: block;
 }
 }
-
 }
 
 </style>
@@ -155,45 +147,38 @@ footer{
 $( "#ham" ).click(function() {
 var ham = document.getElementById("dropdown");
 
-if(ham.style.height == "250px"){
+if(ham.style.height == "auto"){
   ham.style.height = "0px";
 }else{
-  ham.style.height = "250px";
+  ham.style.height = "auto";
 }
 });
 </script>
 
 
 
-
 <div class="container-fluid" id="dropdown">
   <h2>My Links</h2>
 <div class="row">
-<div class="col-sm-4 links" >
+<div class="col links" >
   <a href="Portfolio/index.html">My Portfolio</a>
 </div>
-<div class="col-sm-4 links " >
+
+<div class="col links " >
   <a href="https://lliguihector.wordpress.com">My Blog</a>
 </div>
-
-<div class="col-sm-4 links">
+<div class="col links " >
+  <a href="https://lliguihector.wordpress.com">LinkedIn</a>
+</div>
+<div class="col links">
   <a href="https://github.com/lliguihector">GitHub</a>
 </div>
 </div>
 
-
-
-
-
-
-
-
 <!-- PROJECTS -->
 <h2>Projects</h2>
-
-
 <div class="row">
-<div class="col" >
+<div class="col">
   <a href="Restaurant/index.html">Restaurant</a>
 </div>
 <div class="col">
@@ -211,9 +196,10 @@ if(ham.style.height == "250px"){
   <div class="col">
   <a href="DisplayEvens/index.html">DisplayEvens</a>
   </div>
+
 </div>
 </div>
-</div>
+
 
 <br>
 <br>
@@ -222,7 +208,7 @@ if(ham.style.height == "250px"){
 
 <div style="margin:0">
 <div id="title">
-<p>Tech Hire Cohort - Lucky 7</p>
+<p>Tech Hire Cohort - Lucky <b>7</b></p>
 </div>
 </div>
 

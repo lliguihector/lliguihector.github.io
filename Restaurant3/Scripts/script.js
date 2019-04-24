@@ -24,6 +24,19 @@ var th = document.forms["customerForm"]["th"].checked;
 var f = document.forms["customerForm"]["f"].checked;
 
 
+
+
+// var oRadio = document.forms[0].elements["gridCheck1"];
+//
+// for(var i = 0; i< oRadio.length;i++){
+//
+//   if(oRadio[i].checked)
+//   {
+//
+// console.log(oRadio[i].value);
+// }
+// }
+
 if(yes == false && no == false ){
 alert("Have you been to The Ratatouille before");
 return false;
@@ -33,9 +46,6 @@ if(m == false && t == false && w == false && th == false && f ==false){
   alert("Please select best days to contact you");
   return false;
 }
-
-
-
 
 
 if(fname == ""){
@@ -82,16 +92,7 @@ alert("You Entered The following Info: " + "\nName: " + fname + " " + lname + "\
 
 
 
-// var oRadio = document.forms[0].elements["gridCheck1"];
-//
-// for(var i = 0; i< oRadio.length;i++){
-//
-//   if(oRadio[i].checked)
-//   {
-//
-// console.log(oRadio[i].value);
-// }
-// }
+
 
 
 
