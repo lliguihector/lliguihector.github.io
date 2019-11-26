@@ -1,3 +1,24 @@
+$(document).ready(function(){
+
+  $("#InitContent").click(function(){
+
+
+     var nav = document.getElementById("side");
+     if(nav.style.width === '250px')
+     {
+     nav.style.width = '0px';
+     first.className ="returnHam";
+     second.style.background ="white";
+     third.className = "returnHam";
+     hamburger.style.position = "absolute";
+     }
+
+   });
+
+
+});
+
+
 function accordion(b){
 var sidelink = ["sn1","sn2","sn3","sn4","sn5"];
 var arrow = ["dn1","dn2","dn3","dn4","dn5"];
