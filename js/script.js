@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $("#InitContent").click(function(){
+  $("#container").click(function(){
 
 
      var nav = document.getElementById("side");

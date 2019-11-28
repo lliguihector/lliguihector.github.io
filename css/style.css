@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
 }
+body{
+  padding: 0px;
+}
 
-
-#container{min-height: 100%;}
+#container{min-height: 100%; width:100%}
 
 #main{overflow: auto;
-  padding-bottom: 200px;
+
+  padding-bottom: -200px;
+
 }
 
 
@@ -15,8 +19,9 @@
 /* HEADER */
 header{
   height: 54px;
-  width:100%;
-  background-color: #1f5161;
+  max-width:100%;
+  background:white;
+  margin-bottom: 60px;
 
 }
 
@@ -41,7 +46,8 @@ header nav li{
   display: inline-block;
 }
 header nav a{
-  color: white;
+  color: black;
+
   display: inline-block;
   text-decoration: none;
 }
@@ -54,6 +60,10 @@ header nav a:active{
   color: green;
 }
 
+#current{
+  font-weight: bold;
+border-bottom: 1px solid black;
+}
 
 
 
@@ -315,7 +325,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 bottom:0;
 font-family: 'arial';
-margin-top: -200px;
+margin-top: 200px;
 }
 
 
@@ -378,6 +388,7 @@ box-sizing: border-box;
 @media screen and (max-width: 940px){
   header{
     height: 50px;
+    background: black;
   }
   header nav{
   display: none;
