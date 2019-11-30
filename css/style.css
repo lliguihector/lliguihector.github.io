@@ -11,6 +11,32 @@ body{
   padding-left: 10%;
 }
 
+.downloadbtn{
+  background: #4f4f4f;
+    color:white;
+      text-align: center;
+      border-radius: 2px;
+        box-sizing: border-box;
+          width:140px ;
+    padding: 4px;
+          margin-top: 10px;
+
+          display: block;
+          float:center;
+
+
+}
+
+.downloadbtn p{
+  margin: 0px;
+}
+
+.downloadbtn:hover{
+color:white;
+text-decoration: none;
+background: black;
+}
+
 
 .tag{
   background: #8dd9c7;
@@ -19,7 +45,7 @@ body{
   box-sizing: border-box;
   height: auto;
   width: auto;
-  text-align:justify;
+
   width: 80px;
   text-align: center;
   border-radius: 50px;
