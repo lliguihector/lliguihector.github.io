@@ -7,6 +7,10 @@ body{
   font-family: 'Helvetica Neue';
 }
 
+.indent{
+  padding-left: 10%;
+}
+
 
 .tag{
   background: #8dd9c7;
@@ -221,6 +225,7 @@ transition: 0.2s;
   .mini{
     display: block;
   }
+
 }
 
 
@@ -420,8 +425,15 @@ box-sizing: border-box;
   display: inline-block;
 }
 
+.indent{
+  padding-left: 10px;
+}
 
 .btn{
   width: 100%;
 }
+
+
+
+
 }
