@@ -7,12 +7,24 @@ body{
   font-family: 'Helvetica Neue';
 }
 
+.skills{
+  border-width:  1px;
+  border-style: solid;
+  border-color: #8dd9c7;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family:sans-serif;
+
+}
+
 .indent{
   padding-left: 10%;
 }
 
 .downloadbtn{
-  background: #4f4f4f;
+  background: black;
     color:white;
       text-align: center;
       border-radius: 2px;
@@ -34,7 +46,7 @@ body{
 .downloadbtn:hover{
 color:white;
 text-decoration: none;
-background: black;
+background: #4f4f4f;
 }
 
 
