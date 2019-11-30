@@ -4,20 +4,29 @@
 }
 body{
   padding: 0px;
-}
-
-#container{min-height: 100%; width:100%}
-
-#main{overflow: auto;
-
-  padding-bottom: -200px;
-
+  font-family: 'Helvetica Neue';
 }
 
 
+.tag{
+  background: #8dd9c7;
+  color:white;
+  padding: 0px;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  text-align:justify;
+  width: 80px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.tag p {
+  margin: 4px;
+}
 
 /* HEADER */
-header{
+.header{
   height: 54px;
   max-width:100%;
   background:white;
@@ -25,7 +34,7 @@ header{
 
 }
 
-header nav{
+.header nav{
   margin-top:20px;
   width: 100%;
   display: inline-block;
@@ -36,27 +45,27 @@ header nav{
 
 }
 
-header nav ul{
+.header nav ul{
   display: inline-block;
 
 }
 
-header nav li{
+.header nav li{
   margin-left: 30px;
   display: inline-block;
 }
-header nav a{
+.header nav a{
   color: black;
 
   display: inline-block;
   text-decoration: none;
 }
 
-header nav a:hover{
+.header nav a:hover{
   text-decoration: underline;
 }
 
-header nav a:active{
+.header nav a:active{
   color: green;
 }
 
@@ -310,8 +319,8 @@ opacity: 0.7;
 
 
 
-footer{
-background:#35424a;
+.footer{
+background:#09304e;
 border: 0px;
 margin: 0px;
 width:100%;
@@ -329,18 +338,18 @@ margin-top: 200px;
 }
 
 
-footer  a{
+.footer  a{
   color: white;
   font-size: 15px;
   text-decoration: none;
   padding: 10px;
 }
-footer a:hover{
+.footer a:hover{
 
 text-decoration: underline;
 }
 
-footer nav ul li{
+.footer nav ul li{
   padding: 5px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -386,11 +395,11 @@ box-sizing: border-box;
 
 /* media */
 @media screen and (max-width: 940px){
-  header{
+  .header{
     height: 50px;
-    background: black;
+    background: #09304e;
   }
-  header nav{
+  .header nav{
   display: none;
   }
 
