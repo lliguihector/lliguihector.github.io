@@ -5,6 +5,55 @@
 body{
   padding: 0px;
   font-family: 'Helvetica Neue';
+  background:
+}
+
+
+.links{
+  color: grey;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding: 4px 14px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.links:hover{
+  color:#0bceaf;
+  background: black;
+  transition: .7s;
+}
+
+
+
+ul li{
+list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+ul li a{
+  text-decoration: none !important;
+cursor: pointer;
+padding: 0px;
+background-color: transparent;
+-moz-transition: color 0.3s ease;
+-o-transition: color 0.3s ease;
+-webkit-transition: color 0.3s ease;
+transition: color 0.3s ease;
+color: #000;
+opacity: 0.9;
+}
+
+li:hover .fa {
+    color:
+    #0bceaf;
+}
+
+.link:hover{
+    color:#8dd9c7;
 }
 
 .skills{
@@ -19,9 +68,24 @@ body{
 
 }
 
+.myFont h2{
+font-family:"roboto", sans-serif;
+font-weight: 600;
+line-height: 65px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.myFont h4{
+  font-weight: bold;
+  font-family:"roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
 .indent{
   padding-left: 10%;
 }
+
 
 .downloadbtn{
   background: black;
@@ -51,7 +115,7 @@ background: #4f4f4f;
 
 
 .tag{
-  background: #8dd9c7;
+  background: #0bceaf;
   color:white;
   padding: 0px;
   box-sizing: border-box;
@@ -96,18 +160,22 @@ background: #4f4f4f;
   margin-left: 30px;
   display: inline-block;
 }
-.header nav a{
+.header nav li a{
   color: black;
-
+font-size: 18px;
   display: inline-block;
   text-decoration: none;
+  font-family: "roboto", sans-serif;
+  transition: color 0.3s ease;
 }
 
-.header nav a:hover{
+
+.header nav li a:hover{
   text-decoration: underline;
+  color:#0bceaf;
 }
 
-.header nav a:active{
+.header nav li a:active{
   color: green;
 }
 
@@ -466,6 +534,7 @@ box-sizing: border-box;
 .indent{
   padding-left: 10px;
 }
+
 
 .btn{
   width: 100%;
