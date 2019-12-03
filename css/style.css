@@ -8,6 +8,23 @@ body{
   background:
 }
 
+.profilepic{
+
+border-radius: 50%;
+border-width: 10px;
+border-style: solid;
+border-color: #d8d8d8;
+
+}
+
+
+.border{
+  border-radius: 50%;
+  border-width: 50px;
+  border-style: solid;
+  border-color: red;
+}
+
 
 .links{
   color: grey;
@@ -53,13 +70,13 @@ li:hover .fa {
 }
 
 .link:hover{
-    color:#8dd9c7;
+    color:  #0bceaf;
 }
 
 .skills{
   border-width:  1px;
   border-style: solid;
-  border-color: #8dd9c7;
+  border-color:   #0bceaf;
   border-radius: 4px;
   display: inline-block;
   padding: 2px;
