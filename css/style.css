@@ -26,8 +26,7 @@ body{
   margin: 0 auto;
   float: none;
   text-align: center;
-  border: 20px solid
-      rgba(0, 0, 0, 0.17);
+  border: 20px solid  rgba(0, 0, 0, 0.17);
       border-radius: 50%;
 
 }
