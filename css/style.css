@@ -8,6 +8,10 @@ body{
   background:
 }
 
+
+.carousel-caption{
+    color:#0bceaf!important;
+}
 .profilepic img{
 
   height: 400px;
@@ -25,7 +29,8 @@ body{
  background: #333;
  background-size: cover;
  color:  white;
-
+padding-top: 10px;
+padding-bottom: 10PX;
  border-top: 10px solid silver;
  border-bottom: 10px solid silver;
 }
@@ -164,7 +169,7 @@ margin-bottom: 10px;
   text-shadow: initial;
   display: inline-block;
 padding: 6px 12px;
-margin-bottom: 0;
+margin-bottom: 50px;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.42857143;
