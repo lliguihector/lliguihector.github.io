@@ -18,7 +18,28 @@ body{
   border-radius: 50%;
   }
 
+.intro{
+  /* background-image: url( "https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg"); */
+  /* background-repeat: no-repeat;
+ background-attachment: fixed; */
+ background: #333;
+ background-size: cover;
+ color:  white;
 
+ border-top: 10px solid silver;
+ border-bottom: 10px solid silver;
+}
+
+
+.intro img{
+  background: white;
+}
+.intro a{
+  color: white;
+}
+.intro h4{
+    color:#0bceaf;
+}
 
 .img-border {
 
@@ -27,7 +48,7 @@ body{
   float: none;
   text-align: center;
   border: 20px solid  rgba(0, 0, 0, 0.17);
-      border-radius: 50%;
+  border-radius: 50%;
 
 }
 
@@ -83,7 +104,9 @@ li:hover .fa {
 .skills{
   border-width:  1px;
   border-style: solid;
-  border-color:   #0bceaf;
+  /* border-color:   #0bceaf; */
+  border-color: silver;
+  color:silver;
   border-radius: 4px;
   display: inline-block;
   padding: 2px;
