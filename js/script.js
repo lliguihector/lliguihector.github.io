@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $("#container").click(function(){
+  $("#InitContent").click(function(){
 
 
      var nav = document.getElementById("side");
@@ -14,6 +14,14 @@ $(document).ready(function(){
      }
 
    });
+
+   $("#demo").click(function(){
+       $("#show").toggle();
+     });
+
+
+
+
 
 });
 
@@ -73,4 +81,12 @@ third.className = "lastHam";
 hamburger.style.position = "fixed";
 
 }
+}
+
+function expandAbout(){
+
+document.getElementById("show").classList.toggle("display");
+
+alert("hello");
+
 }

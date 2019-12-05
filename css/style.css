@@ -5,8 +5,10 @@
 body{
   padding: 0px;
   font-family: 'Helvetica Neue';
-  
+
 }
+
+
 
 
 .carousel-caption{
@@ -29,21 +31,49 @@ body{
  background: #333;
  background-size: cover;
  color:  white;
-padding-top: 10px;
-padding-bottom: 10PX;
- border-top: 10px solid silver;
- border-bottom: 10px solid silver;
+ height: 0px;
+ overflow: hidden;
+ border: none;
 }
 
+#show{
 
-.intro img{
+  display: none;
 
 }
-.intro a{
+
+.display{
+height: auto;
+overflow: visible;
+}
+
+.aboutMe{
+  background: #333;
+  height: auto;
+  color: white;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10PX;
+  border-top: 10px solid silver;
+  border-bottom: 10px solid silver;
+  transition:  2s;
+}
+
+.aboutMe img{
+
+}
+.aboutMe a{
   color: white;
 }
-.intro h4{
+.aboutMe h4{
     color:#0bceaf;
+}
+
+
+
+.afterAm {
+    display:flex;
+
 }
 
 .img-border {
