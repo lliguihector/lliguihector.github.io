@@ -57,6 +57,8 @@ overflow: visible;
   padding-top: 10px;
   padding-bottom: 10PX;
   transition:  2s;
+  font-family: 'arial';
+padding-top: 10px;
 }
 
 .aboutMe img{
@@ -67,8 +69,18 @@ overflow: visible;
 }
 .aboutMe h4{
     color:#0bceaf;
-}
+    font-weight: bold;
 
+}
+.aboutMe ul {
+
+display:block;
+text-align: left;
+}
+.aboutMe li{
+font-weight:600;
+padding-bottom: : 4px;
+}
 
 
 .afterAm {
@@ -649,6 +661,23 @@ font-weight: bold;
   text-align: center;
   height: 500px;
 }
+
+
+.aboutMe{
+text-align: center;
+border-top: 1px solid silver;
+border-bottom: 1px solid silver;
+}
+
+.aboutMe ul{
+  text-align: justify;
+}
+.aboutMe li{
+  display:inline-block;
+
+}
+
+
 
 
   .header{
