@@ -8,7 +8,7 @@ $(document).ready(function(){
      {
      nav.style.width = '0px';
      first.className ="returnHam";
-     second.style.background ="white";
+     second.style.background ="black";
      third.className = "returnHam";
      hamburger.style.position = "absolute";
      }
@@ -68,7 +68,7 @@ if(nav.style.width === '250px')
 {
 nav.style.width = '0px';
 first.className ="returnHam";
-second.style.background ="white";
+second.style.background ="black";
 third.className = "returnHam";
 hamburger.style.position = "absolute";
 
@@ -76,7 +76,7 @@ hamburger.style.position = "absolute";
 }else{
 nav.style.width = '250px';
 first.className ="firstHam";
-second.style.background = "transparent";
+second.style.background = "white";
 third.className = "lastHam";
 hamburger.style.position = "fixed";
 

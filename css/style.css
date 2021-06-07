@@ -13,7 +13,9 @@ body{
 
 .carousel-caption{
     color:#0bceaf!important;
+
 }
+
 .profilepic img{
 
   height: 400px;
@@ -77,12 +79,10 @@ overflow: visible;
 }
 
 .img-border {
-
-
   margin: 0 auto;
   float: none;
   text-align: center;
-  border: 15px solid  rgba(0, 0, 0, 0.17);
+  border: 15px solid  rgba(51, 51, 51, 51);
   border-radius: 50%;
 
 }
@@ -173,7 +173,7 @@ margin-bottom: 10px;
   background: black;
     color:white;
       text-align: center;
-      border-radius: 2px;
+      border-radius: 6px;
         box-sizing: border-box;
           width:140px ;
     padding: 4px;
@@ -234,16 +234,15 @@ background: #4f4f4f;
 
 
 .tag{
-  background: #0bceaf;
-  color:white;
+  background: #333;
+  color:#0bceaf;
   padding: 0px;
   box-sizing: border-box;
   height: auto;
   width: auto;
-
   width: 80px;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 6px;
 }
 
 .tag p {
@@ -505,7 +504,7 @@ opacity: 0.7;
 .ham{
     width: 30px;
     height: 5px;
-    background-color: white;
+    background-color: black;
     margin-top: 5px;
     border-radius: 2px;
     transition: 0.4s;
@@ -539,14 +538,17 @@ opacity: 0.7;
   width: 30px;
   height: 5px;
   margin: 5px 0;
-  background-color: white;
+  background-color: black;
   transform: rotate(0deg);
   transition: 0.4s;
   border-radius: 2px;
 
 }
 
-
+.view h6{
+  font-family: 'arial';
+    /* color:#0bceaf!important; */
+}
 
 
 .footer{
@@ -621,26 +623,45 @@ box-sizing: border-box;
 }
 
 
+.adminPic{
 
+  text-align: center;
+}
 
 /* media */
 @media screen and (max-width: 940px){
 
+.infoCard{
 
+  text-align: center;
+}
 
+.tag{
+display: inline-block;
+background-color: white;
+font-weight: bold;
+
+}
+
+.infoCard a{
+  display: inline-block;
+}
+.adminPic{
+  padding-top: 60px;
+  text-align: center;
+  height: 500px;
+}
 
 
   .header{
-    height: 50px;
-    background: #09304e;
+    height: 48px;
+    background: #F3F3F3;
   }
   .header nav{
   display: none;
   }
 
-.banner{
-  top:50px;
-}
+
 
 .net{
     top:50px;
