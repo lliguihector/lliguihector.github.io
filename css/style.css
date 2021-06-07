@@ -683,11 +683,12 @@ text-align: center;
 }
 
 .aboutMe ul{
-  text-align: justify;
+  text-align: center;
+  display: block;
 }
 .aboutMe li{
-  display:inline-block;
 
+text-align: justify;
 }
 
 
