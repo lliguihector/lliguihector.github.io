@@ -567,7 +567,8 @@ opacity: 0.7;
 
 
 .footer{
-background:#09304e;
+/* background:#09304e; */
+background: #0bceaf;
 border: 0px;
 margin: 0px;
 width:100%;
