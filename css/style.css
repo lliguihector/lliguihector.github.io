@@ -582,13 +582,13 @@ margin-top: 200px;
 
 .projectImages{
 
-  background: red;
-  padding-top: 25px;
   box-sizing:border-box;
 
 
 }
-
+.technologies{
+  background: silver;
+}
 .footer  a{
   color: white;
   font-size: 15px;
@@ -679,8 +679,7 @@ font-weight: bold;
 
 .aboutMe{
 text-align: center;
-border-top: 1px solid silver;
-border-bottom: 1px solid silver;
+
 }
 
 .aboutMe ul{
