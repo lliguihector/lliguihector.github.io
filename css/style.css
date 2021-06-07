@@ -58,7 +58,7 @@ overflow: visible;
   padding-bottom: 10PX;
   transition:  2s;
   font-family: 'arial';
-padding-top: 10px;
+  padding-top: 10px;
 }
 
 .aboutMe img{
@@ -80,6 +80,7 @@ text-align: left;
 .aboutMe li{
 font-weight:600;
 padding-bottom: : 4px;
+color: grey;
 }
 
 
@@ -579,6 +580,14 @@ font-family: 'arial';
 margin-top: 200px;
 }
 
+.projectImages{
+
+  background: red;
+  padding-top: 25px;
+  box-sizing:border-box;
+
+
+}
 
 .footer  a{
   color: white;
@@ -641,6 +650,11 @@ box-sizing: border-box;
 /* media */
 @media screen and (max-width: 940px){
 
+
+
+  .titles{
+  text-align: center;
+  }
 .infoCard{
 
   text-align: center;
