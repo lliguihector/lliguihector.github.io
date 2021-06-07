@@ -50,14 +50,12 @@ overflow: visible;
 }
 
 .aboutMe{
-  background: #333;
+  background: white;
   height: auto;
-  color: white;
+  color: black;
   display: flex;
   padding-top: 10px;
   padding-bottom: 10PX;
-  border-top: 10px solid silver;
-  border-bottom: 10px solid silver;
   transition:  2s;
 }
 
@@ -82,7 +80,7 @@ overflow: visible;
   margin: 0 auto;
   float: none;
   text-align: center;
-  border: 15px solid  rgba(51, 51, 51, 51);
+  border: 4px solid  rgba(51, 51, 51, 51);
   border-radius: 50%;
 
 }
@@ -140,8 +138,8 @@ li:hover .fa {
   border-width:  1px;
   border-style: solid;
   /* border-color:   #0bceaf; */
-  border-color: silver;
-  color:silver;
+  border-color: black;
+  color:black;
   border-radius: 4px;
   display: inline-block;
   padding: 2px;
