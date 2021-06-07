@@ -224,9 +224,13 @@ cursor: pointer;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
+.screenshotsbtn a{
 
+}
 .screenshotsbtn:hover{
   background: #0bceaf;
   color:white;
@@ -579,7 +583,10 @@ bottom:0;
 font-family: 'arial';
 margin-top: 200px;
 }
+.titles{
 
+    color:#0bceaf;
+}
 .projectImages{
 
   box-sizing:border-box;
