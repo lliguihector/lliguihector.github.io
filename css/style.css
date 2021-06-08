@@ -64,9 +64,7 @@ overflow: visible;
 .aboutMe img{
 
 }
-.aboutMe a{
-  color: white;
-}
+
 .aboutMe h4{
     color:#0bceaf;
     font-weight: bold;
@@ -177,6 +175,7 @@ margin-bottom: 10px;
 
 .indent{
   padding-left: 10%;
+  padding-right: 10%;
 }
 
 
@@ -226,6 +225,7 @@ cursor: pointer;
 user-select: none;
   text-decoration: none;
   box-sizing: border-box;
+
 }
 
 .screenshotsbtn a{
@@ -585,7 +585,7 @@ font-family: 'arial';
 margin-top: 200px;
 }
 .titles{
-
+font-weight: bold;
     color:#0bceaf;
 }
 .projectImages{
@@ -727,6 +727,7 @@ text-align: justify;
 
 .indent{
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 
