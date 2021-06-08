@@ -179,20 +179,24 @@ margin-bottom: 10px;
 }
 
 
+.downloadbtnCon{
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
 .downloadbtn{
   background: black;
-    color:white;
-      text-align: center;
-      border-radius: 6px;
-        box-sizing: border-box;
-          width:140px ;
-    padding: 4px;
-          margin-top: 10px;
-
-          display: block;
-          float:center;
-
-
+  color:white;
+  text-align: center;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width:140px ;
+  padding: 6px;
+  display: inline-block;
 }
 
 .screenshotsbtn{
@@ -659,6 +663,9 @@ box-sizing: border-box;
 @media screen and (max-width: 940px){
 
 
+.downloadbtnCon{
+text-align: center;
+}
 
   .titles{
   text-align: center;
@@ -679,7 +686,7 @@ font-weight: bold;
   display: inline-block;
 }
 .adminPic{
-  padding-top: 60px;
+  padding-top: 40px;
   text-align: center;
   height: 500px;
 }
