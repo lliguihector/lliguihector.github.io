@@ -91,7 +91,7 @@ color: grey;
   margin: 0 auto;
   float: none;
   text-align: center;
-  border: 4px solid  rgba(51, 51, 51, 51);
+  border: 10px solid  rgba(11, 206, 175, 1);
   border-radius: 50%;
 
 }
@@ -589,7 +589,7 @@ font-family: 'arial';
 margin-top: 200px;
 }
 .titles{
-font-weight: bold;
+font-family:'arial';
     color:#0bceaf;
 }
 .projectImages{
@@ -686,9 +686,8 @@ font-weight: bold;
   display: inline-block;
 }
 .adminPic{
-  padding-top: 40px;
   text-align: center;
-  height: 500px;
+  height: auto;
 }
 
 
