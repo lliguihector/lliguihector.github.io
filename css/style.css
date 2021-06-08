@@ -569,7 +569,10 @@ opacity: 0.7;
     /* color:#0bceaf!important; */
 }
 
-
+.star{
+    color:#0bceaf;
+    /* color:#31AE63; */
+}
 .footer{
 /* background:#09304e; */
 background: #0bceaf;
